@@ -4,7 +4,7 @@ from typing import Annotated
 from todo_mcp.todo_db import TodoDB
 
 #Create the DB 
-todo_db = TodoDB(db_file='/Users/linjiawei/Desktop/Folders/GeeksHacking/geekshacking-mcp/todo_db.json')
+todo_db = TodoDB(db_file='/Users/linjiawei/Desktop/Folders/GeeksHacking/geekshacking-mcp/src/todo_mcp/todo_db.json')
 #todo_db.sample_data()
 
 # Create the MCP server
