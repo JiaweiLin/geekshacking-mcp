@@ -1,7 +1,7 @@
 # import libraries
 from fastmcp import FastMCP
 from typing import Annotated
-from todo_db import TodoDB
+from todo_mcp.todo_db import TodoDB
 
 #Create the DB 
 todo_db = TodoDB(db_file='/Users/linjiawei/Desktop/Folders/GeeksHacking/geekshacking-mcp/todo_db.json')

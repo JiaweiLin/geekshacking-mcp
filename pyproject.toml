@@ -9,14 +9,14 @@ dependencies = [
 ]
 
 [project.scripts]
-todo_mcp = "todo_mcp:main"
+todo_mcp = "todo_mcp.todo_mcp:main"
 
 [build-system]
 requires = [ "setuptools" ]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-package-dir = { "" = "." }
+package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
-where = [ "." ]
+where = [ "src" ]
