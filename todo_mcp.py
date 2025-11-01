@@ -8,7 +8,7 @@ todo_db = TodoDB(db_file='/Users/linjiawei/Desktop/Folders/GeeksHacking/geekshac
 #todo_db.sample_data()
 
 # Create the MCP server
-mcp = FastMCP('TODO-MCP')
+mcp = FastMCP('todo-mcp')
 
 # Tools
 @mcp.tool(
